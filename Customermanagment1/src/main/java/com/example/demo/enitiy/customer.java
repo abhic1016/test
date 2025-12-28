@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 public class customer {
 	@Id 
 	private int cid;
-	private String name;
+	private String Name;
 	private String email;
 	private String address;
     private String mobno;
